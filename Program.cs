@@ -105,62 +105,65 @@ else
 // -- it is, so we console.log 'yes'
 
 //CODE
-/*
-let number = 1;
+int num = 1;
 // FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
-number--;
-if (number >= 2) {
-  console.log('yes');
+num --;
+if (num >= 2) {
+    Console.WriteLine("yes");
 }
-*/
-
 
 
 //4. We start with three variables -- colorOne is set to 'blue' and
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
+// CODE
 // FIX - colorOne = 'red';, instructions asks for colorOne = 'blue';
 // FIX - colorTwo = 'blue';, instructions ask for colorTwo = 'red';
-let colorOne = 'red';
-let colorTwo = 'blue';
-let mix = true;
-// FIX - if (mix === true) {, simplier way is if (mix){
+string colorOne = "red";
+string colorTwo = "blue";
+bool mix = true;
+// FIX - if (mix == true) {, simplier way is if (mix){
 // FIX - add colorTwo = 'purple'; beneath colorOne = 'purple', instructions asks for both set to purple
-if (mix === true) {
-  colorOne = 'purple';
+if (mix == true) {
+    colorOne = "purple";
+    colorTwo = "purple";
 }
-*/
+Console.WriteLine(colorOne);
+Console.WriteLine(colorTwo);
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4
 // -- they are so we console.log 'throw away the food!'
 
-/*
+// CODE
 // FIX - change const time = 4;, instructions ask for let time = 4;
-let temp = 40;
-const time = 4;
+int temp = 40;
+int time = 4;
 // FIX - change ||, instructions ask for if (temp > 39 && time >= 4) {
-if (temp > 39 || time >= 4) {
-  console.log('throw away the food!');
+if (temp > 39 || time >= 4) 
+{
+    Console.WriteLine("throw away the food!");
 }
-*/
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
 
-/*
-let age = 21;
-const minAge = 21;
+// CODE
+int thisAge = 21;
+int minAge = 21;
 // FIX - switch minAge and age, instructions asks for if (age >= minAge) {
 // FIX - change console.log('no entry');, instructions aks for console.log('enter');
 // FIX - delete line 177 and 178 so it is closed out with }, instructions does not ask for additional code
-if(minAge <= age) {
-  console.log('no entry');
-} else {
-  console.log('enter');
+if(minAge <= thisAge) 
+{
+    Console.WriteLine("enter");
+} 
+else 
+{
+    Console.WriteLine("no entry");
 }
-*/
