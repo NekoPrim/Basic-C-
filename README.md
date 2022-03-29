@@ -28,6 +28,7 @@ number++;
 if (number >= 2) {
   console.log('yes');
 }
+*/
 ```
 
 _Section 2_
@@ -52,5 +53,5 @@ number--;
 if (number >= 2) {
   console.log('yes');
 }
-```
 */
+```
