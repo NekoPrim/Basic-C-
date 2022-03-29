@@ -21,21 +21,21 @@ if (number >= 2)
 }
 
 
-
 // 1. WRITE YOUR DESCRIPTION HERE
 // We create a variable called name and set its value to Dane
 // We check name is the exact same as value 'Mary' but it is not, so skip console.log 'Hi, Mary!'
 // Since the name is not exactly the same as 'Mary', so we console.log 'How do you do?'.
 
 //CODE
-/*
-let name = 'Dane';
-if (name === 'Mary') {
-  console.log('Hi, Mary!');
-} else {
-  console.log('How do you do?');
+string name = "Dane";
+if (name == "Mary") 
+{
+    Console.WriteLine("Hi, Mary!");
+} 
+else {
+    Console.WriteLine("How do you do?");
 }
-*/
+
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We create a variable named secret and another variable named code with a value of 123
@@ -45,18 +45,19 @@ if (name === 'Mary') {
 // Finally we console.log secret, and in the console we would see 'super'.
 
 //CODE
-/*
-let secret;
-let code = 123;
-if(code === 123) {
-  secret = 'super';
-  code = code * 2;
+string secret = "";
+int code = 123;
+if(code == 123) 
+{
+    secret = "super";
+    code = code * 2;
 }
-if (code > 250) {
-  secret = 'duper'
+if (code > 250) 
+{
+    secret = "duper";
 }
-console.log(secret)
-*/
+Console.WriteLine(secret);
+
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // We create 3 different variables named isStudent, age, and zip. we make isStudent a boolean variable equal
@@ -67,23 +68,27 @@ console.log(secret)
 // your hobbies?'. Then we check conditional else if variable isStudent value is exactly equal to true.  Our
 // value of variable isStudent matches, so we console.log 'Welcome to Prime!'. We ignore last conditional and
 // ignore it's console.log 'How about the weather?' because we go with the first conditional match.
+
 //CODE
-/*
-let isStudent = true;
-let age = 34;
-let zip = 55407;
-if (isStudent === true && zip > 80000 ) {
-  console.log(`You're a student on the West Coast!`);
-} else if (isStudent === false || age < 30) {
-  console.log('What are your hobbies?');
-} else if (isStudent === true) {
-  console.log('Welcome to Prime!');
-} else {
-  console.log('How about the weather?')
+bool isStudent = true;
+int age = 34;
+int zip = 55407;
+if (isStudent == true && zip > 80000 ) 
+{
+    Console.WriteLine("You're a student on the West Coast!");
+} 
+else if (isStudent == false || age < 30) 
+{
+    Console.WriteLine("What are your hobbies?");
+} 
+else if (isStudent == true) 
+{
+    Console.WriteLine("Welcome to Prime!");
+} 
+else 
+{
+    Console.WriteLine("How about the weather?");
 }
-*/
-
-
 
 
 // REVERSE
